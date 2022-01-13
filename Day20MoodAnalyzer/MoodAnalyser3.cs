@@ -7,6 +7,12 @@ namespace Day20MoodAnalyzer
     public class MoodAnalyse3
     {
         private string message;
+
+        public MoodAnalyse3()
+        {
+
+        }
+
         public MoodAnalyse3(string message)
         {
             this.message = message;

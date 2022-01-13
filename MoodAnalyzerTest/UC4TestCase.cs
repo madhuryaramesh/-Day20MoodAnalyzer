@@ -6,6 +6,7 @@ namespace MoodAnalyzerTest
     [TestClass]
     public class UC3TestCase
     {
+       
         [TestMethod]
         public void Given_NULL_Mood_Should_Throw_MoodAnalysisException()
         {
@@ -20,6 +21,7 @@ namespace MoodAnalyzerTest
                 Assert.AreEqual("Mood should not be null", e.Message);
             }
         }
+
         [TestMethod]
         public void Given_Empty_Mood_Should_Throw_MoodAnalysisException_Indicating_EmptyMood()
         {
@@ -34,7 +36,5 @@ namespace MoodAnalyzerTest
                 Assert.AreEqual("Mood should not be Empty", e.Message);
             }
         }
-
-
     }
 }

@@ -6,12 +6,16 @@ namespace Day20MoodAnalyzer
 {
     public class MoodAnalysisException : Exception
     {
+       
         public enum ExceptionType
         {
-            NULL_Msg, 
+            NULL_Msg,
             EMPTY_Msg,
-           
+            NO_SUCH_FIELD, NO_SUCH_METHOD,
+            NO_SUCH_CLASS, OBJECT_CREATION_ISSUE
+
         }
+
         private readonly ExceptionType type;
 
         public MoodAnalysisException(ExceptionType Type, string message) : base(message)
