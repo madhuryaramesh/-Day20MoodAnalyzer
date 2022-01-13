@@ -1,0 +1,14 @@
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.exe
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.deps.json
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.runtimeconfig.json
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.runtimeconfig.dev.json
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.dll
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\bin\Debug\netcoreapp3.1\Day20MoodAnalyzer.pdb
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.csproj.AssemblyReference.cache
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.AssemblyInfoInputs.cache
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.AssemblyInfo.cs
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.csproj.CoreCompileInputs.cache
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.dll
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.pdb
+E:\bridgelabz\.net\092- practice problem\Day20MoodAnalyzer\Day20MoodAnalyzer\obj\Debug\netcoreapp3.1\Day20MoodAnalyzer.genruntimeconfig.cache
