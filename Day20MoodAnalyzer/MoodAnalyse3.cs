@@ -4,12 +4,10 @@ using System.Text;
 
 namespace Day20MoodAnalyzer
 {
-    public class MoodAnalyse2
+    public class MoodAnalyse3
     {
         private string message;
-
-       
-        public MoodAnalyse2(string message)
+        public MoodAnalyse3(string message)
         {
             this.message = message;
         }
@@ -18,6 +16,11 @@ namespace Day20MoodAnalyzer
         {
             try
             {
+                if (this.message.Equals(string.Empty))
+                {
+                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY_Msg, "Mood should not be Empty");
+                }
+
                 if (this.message.Contains("Sad"))
                 {
                     return "SAD";
@@ -27,9 +30,9 @@ namespace Day20MoodAnalyzer
                     return "HAPPY";
                 }
             }
-            catch
+            catch (NullReferenceException)
             {
-                return "HAPPY";
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL_Msg, "Mood should not be null");
             }
         }
     }
