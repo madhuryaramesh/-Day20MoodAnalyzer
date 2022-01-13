@@ -6,8 +6,8 @@ namespace Day20MoodAnalyzer
     {
         static void Main(string[] args)
         {
-            // UC1
-            MoodAnalyzer obj = new MoodAnalyzer("Sad");
+            // UC2
+            MoodAnalyse2 obj = new MoodAnalyse2("Sad");
             obj.AnalyseMood();
         }
     }

@@ -4,20 +4,30 @@ using System.Text;
 
 namespace Day20MoodAnalyzer
 {
-    public class MoodAnalyzer
+    public class MoodAnalyse2
     {
         private string message;
-        public MoodAnalyzer(string message)
+
+       
+        public MoodAnalyse2(string message)
         {
             this.message = message;
         }
+
         public string AnalyseMood()
         {
-            if (this.message.Contains("Sad"))
+            try
             {
-                return "SAD";
+                if (this.message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "HAPPY";
+                }
             }
-            else
+            catch
             {
                 return "HAPPY";
             }
