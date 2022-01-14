@@ -1660,33 +1660,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Day20MoodAnalyzer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Day20MoodAnalyzer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Day20MoodAnalyzer.dll": {}
-        }
-      },
-      "MoodAnalyzerTest/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Day20MoodAnalyzer": "1.0.0",
-          "MSTest.TestAdapter": "2.2.3",
-          "MSTest.TestFramework": "2.2.3",
-          "Microsoft.NET.Test.Sdk": "16.9.4",
-          "coverlet.collector": "3.0.2"
-        },
-        "compile": {
-          "bin/placeholder/MoodAnalyzerTest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MoodAnalyzerTest.dll": {}
-        }
       }
     }
   },
@@ -6130,25 +6103,13 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Day20MoodAnalyzer/1.0.0": {
-      "type": "project",
-      "path": "../Day20MoodAnalyzer/Day20MoodAnalyzer.csproj",
-      "msbuildProject": "../Day20MoodAnalyzer/Day20MoodAnalyzer.csproj"
-    },
-    "MoodAnalyzerTest/1.0.0": {
-      "type": "project",
-      "path": "../MoodAnalyzerTest/MoodAnalyzerTest.csproj",
-      "msbuildProject": "../MoodAnalyzerTest/MoodAnalyzerTest.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Day20MoodAnalyzer >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "MoodAnalyzerTest >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -6178,14 +6139,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "E:\\bridgelabz\\.net\\092- practice problem\\Day20MoodAnalyzer\\Day20MoodAnalyzer\\Day20MoodAnalyzer.csproj": {
-              "projectPath": "E:\\bridgelabz\\.net\\092- practice problem\\Day20MoodAnalyzer\\Day20MoodAnalyzer\\Day20MoodAnalyzer.csproj"
-            },
-            "E:\\bridgelabz\\.net\\092- practice problem\\Day20MoodAnalyzer\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj": {
-              "projectPath": "E:\\bridgelabz\\.net\\092- practice problem\\Day20MoodAnalyzer\\MoodAnalyzerTest\\MoodAnalyzerTest.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

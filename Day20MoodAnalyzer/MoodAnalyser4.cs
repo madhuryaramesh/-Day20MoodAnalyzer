@@ -4,16 +4,16 @@ using System.Text;
 
 namespace Day20MoodAnalyzer
 {
-    public class MoodAnalyse3
+    public class MoodAnalyser4
     {
         private string message;
 
-        public MoodAnalyse3()
+        public MoodAnalyser4()
         {
 
         }
 
-        public MoodAnalyse3(string message)
+        public MoodAnalyser4(string message)
         {
             this.message = message;
         }
