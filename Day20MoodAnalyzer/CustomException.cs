@@ -12,7 +12,8 @@ namespace Day20MoodAnalyzer
             NULL_Msg,
             EMPTY_Msg,
             NO_SUCH_FIELD, NO_SUCH_METHOD,
-            NO_SUCH_CLASS, OBJECT_CREATION_ISSUE
+            NO_SUCH_CLASS, OBJECT_CREATION_ISSUE,
+            NULL_VALUE
 
         }
 
